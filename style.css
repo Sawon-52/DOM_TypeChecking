@@ -1,0 +1,50 @@
+.content{
+    width: 80%;
+    min-height: 500px;
+    margin: 10px auto;
+    background-color: #D9EDBF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 30px;
+}
+
+.content .title > h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+
+.content .title {
+    width: 70%;
+    min-height: 200px;
+    background-color: #FFB996;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.content .input {
+    display: flex;
+    gap: 20px;
+}
+
+.content .input input,
+.content .input button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.content .input button{
+    background-color: #FF6868;
+    color: white;
+}
+
